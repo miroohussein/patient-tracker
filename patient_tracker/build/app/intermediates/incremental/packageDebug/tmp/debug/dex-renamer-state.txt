@@ -1,0 +1,4 @@
+#Fri May 28 17:40:38 PDT 2021
+base.0=C\:\\Users\\Administrator.CRIZMA-LAPTOP\\Documents\\GitHub\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

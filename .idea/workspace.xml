@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94593170-7080-4969-85e1-5a5cea783dcd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/patient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/ChooseDRorPatient/ChooseDRorPatient.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/PATIENTwelcomepage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1t7ia5DvYFWeADcAJUhQfMJrNah" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/patient_tracker/assets/images" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\assets\images" />
+      <recent name="C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\assests\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/patient_tracker/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.main.dart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94593170-7080-4969-85e1-5a5cea783dcd" name="Default Changelist" comment="" />
+      <created>1622126588539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622126588539</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="5" key="#Plugins" timestamp="1622126846632">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="5" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1622126846632" />
+    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1622242756582">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1622242756582" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1622126881552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622126881552" />
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1622261023065">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1622261023065" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1622261023064">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1622261023064" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1622261023064">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1622261023064" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1622261023064">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1622261023064" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1622208049053">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1622208049052" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1622266193961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1622266193961" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1622206762076">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1622206762076" />
+  </component>
+</project>

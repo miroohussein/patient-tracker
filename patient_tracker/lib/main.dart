@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/ui/ChooseDRorPatient/ChooseDRorPatient.dart';
+import 'package:patient_tracker/ui/DRandPATIENTwelcomepages/PATIENTwelcomepage.dart';
+import 'package:patient_tracker/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(
+    home: DRwelcomepage()));
 }
 
 class MyApp extends StatelessWidget {
