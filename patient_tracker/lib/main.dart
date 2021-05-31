@@ -3,10 +3,11 @@ import 'package:patient_tracker/ui/ChooseDRorPatient/ChooseDRorPatient.dart';
 import 'package:patient_tracker/ui/DRandPATIENTwelcomepages/PATIENTwelcomepage.dart';
 import 'package:patient_tracker/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart';
 import 'package:patient_tracker/ui/Sign_inPAGE/sign_in.dart';
+import 'package:patient_tracker/ui/home_page/home_page.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: sign_in()));
+    home: home()));
 }
 
 class MyApp extends StatelessWidget {

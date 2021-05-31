@@ -20,46 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94593170-7080-4969-85e1-5a5cea783dcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/doctorr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/dr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/drr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/drrr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/Sign_inPAGE/sign_in.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/home_page/home_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/.filecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/app.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/debug_android_application.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/flutter_assets.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/outputs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/ChooseDRorPatient/ChooseDRorPatient.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/ChooseDRorPatient/ChooseDRorPatient.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
