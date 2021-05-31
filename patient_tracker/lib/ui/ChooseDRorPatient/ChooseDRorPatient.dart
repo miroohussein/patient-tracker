@@ -18,7 +18,7 @@ class DRorPATIENT extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Center(
-                          child: Text(" Please select what you are.",
+                          child: Text(" Please select!  ",
                             style: TextStyle(
                             color: mainColor,
                             fontSize: 20,
@@ -35,17 +35,20 @@ class DRorPATIENT extends StatelessWidget {
                                padding: const EdgeInsets.all(8.0),
                                child: Column(
                                  children:<Widget>[
-                               Image.asset("assets/images/patient.png",width: 170,height: 320,) ,
+                               Image.asset("assets/images/doctorr.png",width: 170,height: 320,) ,
 
 
-                                Center(
-                                  child: MaterialButton(
-                                     padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
-                                   color: mainColor,
-                                   onPressed:(){},
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Center(
+                                    child: MaterialButton(
+                                       padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
+                                     color: mainColor,
+                                     onPressed:(){},
                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                                child: Text("Doctor",style: TextStyle(color: Colors.white,),)
                      ),
+                                  ),
                                 ),
                           ],
                         ),
@@ -55,13 +58,16 @@ class DRorPATIENT extends StatelessWidget {
                                    Image.asset("assets/images/patient.png",width: 170,height: 320,) ,
 
 
-                                   Center(
-                                     child: MaterialButton(
-                                         padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
-                                         color: mainColor,
-                                         onPressed:(){},
-                                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                                         child: Text("Patient",style: TextStyle(color: Colors.white,),)
+                                   Padding(
+                                     padding: const EdgeInsets.all(8.0),
+                                     child: Center(
+                                       child: MaterialButton(
+                                           padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
+                                           color: mainColor,
+                                           onPressed:(){},
+                                           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                                           child: Text("Patient",style: TextStyle(color: Colors.white,),)
+                                       ),
                                      ),
                                    ),
                                  ],

@@ -49,6 +49,10 @@ flutter:
     - assets/images/logo.png
     - assets/images/doctor.png
     - assets/images/patient.png
+    - assets/images/pic.png
+    - assets/images/doctorr.png
+
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

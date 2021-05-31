@@ -24,19 +24,25 @@ class DRwelcomepage extends StatelessWidget {
     ),
     textAlign: TextAlign.center,),),
     ),
-    Column(
-    children:<Widget>[
-       Image.asset("assets/images/doctor.png"),
-           Center(
-             child: MaterialButton(
-                 padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
-    color: mainColor,
-    onPressed:(){},
-    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-    child: Text("Sign up",style: TextStyle(color: Colors.white,),)
+    Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Column(
+      children:<Widget>[
+         Image.asset("assets/images/doctorr.png",width: 400,height: 350,),
+             Center(
+               child: Padding(
+                 padding: const EdgeInsets.all(30),
+                 child: MaterialButton(
+                     padding: EdgeInsets.fromLTRB(30, 15, 30, 15),
+                               color: mainColor,
+                          onPressed:(){},
+                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                             child: Text("Sign up",style: TextStyle(color: Colors.white,),)
+                                ),
+               ),
+                                  ),
+                                          ],
+                                                 ),
     ),
-    ),
-    ],
-    ),
-    ],), ),),),);
-  }}
+                                         ],), ),),),);
+                                                }}
