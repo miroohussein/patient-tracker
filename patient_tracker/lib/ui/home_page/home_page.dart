@@ -7,9 +7,12 @@ class home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body:
+          Row(
+            children:<Widget>[
 
-       Center(
-         child: Column(
+
+
+        Column(
            children: <Widget>[
              Padding(
                padding: const EdgeInsets.fromLTRB(20, 95, 20, 20),
@@ -80,7 +83,9 @@ class home extends StatelessWidget {
 
 
 ),
-       )
-    );
+    ],
+          ),
+       );
+
   }
 }

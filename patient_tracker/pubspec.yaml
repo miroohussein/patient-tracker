@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+  flutter_rating_bar: ^4.0.0
   flutter:
     sdk: flutter
 
@@ -47,7 +48,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/logo.png
-    - assets/images/doctor.png
+    - assets/images/dr.png
     - assets/images/patient.png
     - assets/images/pic.png
     - assets/images/doctorr.png
