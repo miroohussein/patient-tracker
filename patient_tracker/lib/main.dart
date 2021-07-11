@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/ui/settings/settings.dart';
 import 'package:patient_tracker/ui/sign_up/doctor_sign_up.dart';
 import 'package:patient_tracker/ui/sign_up/patient_sign_up.dart';
 import 'package:patient_tracker/ui/logo/logo.dart';
-import 'package:patient_tracker/hospital_page/hopital_page.dart';
+import 'package:patient_tracker/ui/hospital_page/hopital_page.dart';
+import 'package:patient_tracker/ui/navigationBar/navigationBar.dart';
 
 void main() {
   runApp(PatientTracker());
@@ -52,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
-    return HospitalPage() ;
+    return NavigationBar() ;
     /* Scaffold(
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by

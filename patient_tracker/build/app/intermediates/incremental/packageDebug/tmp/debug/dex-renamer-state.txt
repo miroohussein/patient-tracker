@@ -1,4 +1,4 @@
-#Wed Jun 09 14:08:33 EET 2021
-base.0=C\:\\GitHub\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sun Jul 11 11:36:09 EET 2021
+base.0=C\:\\Users\\Imex\\Documents\\GitHub\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
