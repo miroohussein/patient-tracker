@@ -4,11 +4,12 @@ import 'package:patient_tracker/ui/DRandPATIENTwelcomepages/PATIENTwelcomepage.d
 import 'package:patient_tracker/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart';
 import 'package:patient_tracker/ui/Doctors%20page/Doctors%20page.dart';
 import 'package:patient_tracker/ui/Sign_inPAGE/sign_in.dart';
+import 'package:patient_tracker/ui/appointments/Appointments.dart';
 import 'package:patient_tracker/ui/home_page/home_page.dart';
 
 void main() {
   runApp(MaterialApp(debugShowCheckedModeBanner: false,
-    home: doctors_page()));
+    home: appointments()));
 }
 
 class MyApp extends StatelessWidget {
