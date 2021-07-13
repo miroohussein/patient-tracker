@@ -16,6 +16,16 @@ class sign_inState extends State<sign_in> {
   Widget build(BuildContext context) {
 
      return Scaffold(
+       appBar: AppBar(
+         backgroundColor: Color(0xFF1EB2B2) ,
+         leading: IconButton(
+
+             onPressed: ()
+             { },
+             icon: Icon(
+               Icons.arrow_back_ios,
+               color: Colors.white,
+             )),),
        body: Container(
 
          alignment: Alignment.center,

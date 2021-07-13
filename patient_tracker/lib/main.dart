@@ -3,13 +3,15 @@ import 'package:patient_tracker/ui/ChooseDRorPatient/ChooseDRorPatient.dart';
 import 'package:patient_tracker/ui/DRandPATIENTwelcomepages/PATIENTwelcomepage.dart';
 import 'package:patient_tracker/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart';
 import 'package:patient_tracker/ui/Doctors%20page/Doctors%20page.dart';
+import 'package:patient_tracker/ui/Notifications/Notifications.dart';
 import 'package:patient_tracker/ui/Sign_inPAGE/sign_in.dart';
 import 'package:patient_tracker/ui/appointments/Appointments.dart';
+import 'package:patient_tracker/ui/dr_page/dr_page.dart';
 import 'package:patient_tracker/ui/home_page/home_page.dart';
 
 void main() {
   runApp(MaterialApp(debugShowCheckedModeBanner: false,
-    home: appointments()));
+    home: dr_page()));
 }
 
 class MyApp extends StatelessWidget {

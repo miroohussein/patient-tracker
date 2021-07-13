@@ -20,21 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94593170-7080-4969-85e1-5a5cea783dcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/appointments/Appointments.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/admin3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/adminN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/Notifications/Notifications.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/dr_page/dr_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/.filecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/debug_android_application.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/flutter_assets.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/outputs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/assets/images/pic.png.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/assets/images/pic.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/assets/images/pic.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
@@ -42,6 +57,13 @@
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/ChooseDRorPatient/ChooseDRorPatient.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/ChooseDRorPatient/ChooseDRorPatient.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/PATIENTwelcomepage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/PATIENTwelcomepage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/Doctors page/Doctors page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/Doctors page/Doctors page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/Sign_inPAGE/sign_in.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/Sign_inPAGE/sign_in.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/appointments/Appointments.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/appointments/Appointments.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,30 +143,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="5" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1622126846632" />
-    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1625987787076">
+    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1626154141525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1625987787076" />
+    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1626154141525" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1622126881552">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622126881552" />
-    <state width="1323" height="113" key="GridCell.Tab.0.bottom" timestamp="1625967201783">
+    <state width="1323" height="115" key="GridCell.Tab.0.bottom" timestamp="1626138825418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="113" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625967201783" />
-    <state width="1323" height="113" key="GridCell.Tab.0.center" timestamp="1625967201782">
+    <state width="1323" height="115" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626138825418" />
+    <state width="1323" height="115" key="GridCell.Tab.0.center" timestamp="1626138825417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="113" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625967201782" />
-    <state width="1323" height="113" key="GridCell.Tab.0.left" timestamp="1625967201780">
+    <state width="1323" height="115" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626138825417" />
+    <state width="1323" height="115" key="GridCell.Tab.0.left" timestamp="1626138825417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="113" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625967201780" />
-    <state width="1323" height="113" key="GridCell.Tab.0.right" timestamp="1625967201782">
+    <state width="1323" height="115" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626138825417" />
+    <state width="1323" height="115" key="GridCell.Tab.0.right" timestamp="1626138825417">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="113" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625967201782" />
+    <state width="1323" height="115" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626138825417" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1622208049053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -153,9 +175,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1622354173246" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1622206762076">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1626134998722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1622206762076" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1626134998722" />
   </component>
 </project>

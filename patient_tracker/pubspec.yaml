@@ -20,6 +20,7 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
+
 dependencies:
   flutter_rating_bar: ^4.0.0
   flutter:
@@ -50,7 +51,7 @@ flutter:
     - assets/images/logo.png
     - assets/images/dr.png
     - assets/images/patient.png
-    - assets/images/pic.png
+    - assets/images/admin3.png
     - assets/images/doctorr.png
 
 

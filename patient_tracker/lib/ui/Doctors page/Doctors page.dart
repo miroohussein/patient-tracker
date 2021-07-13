@@ -20,6 +20,18 @@ class doctors_page extends StatelessWidget {
   Color mainColor = Color.fromRGBO(19, 138, 222,1);
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        actions: [
+          IconButton(
+              onPressed: () {},
+              icon: Icon(
+                Icons.search,
+                color: Colors.red.shade800,
+              )),
+        ],
+
+      ),
     body: ListView.builder(itemCount: 5, itemBuilder:( BuildContext context,int index) {
       return Stack(
 

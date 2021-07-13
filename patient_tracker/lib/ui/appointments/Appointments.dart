@@ -8,6 +8,7 @@ class appointments extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffF2F2F7),
       appBar: AppBar(
         backgroundColor: Color.fromRGBO(30, 178, 162,1),
         title: Center(
@@ -19,7 +20,9 @@ class appointments extends StatelessWidget {
         ),
         toolbarHeight: 79.5,
       ),
-      body: ListView.builder(itemCount: 5, itemBuilder:( BuildContext context,int index) {
+      body:
+      ListView.builder(itemCount: 5, itemBuilder:( BuildContext context,int index) {
+
         return Stack(
 
           children:<Widget>[
@@ -27,11 +30,11 @@ class appointments extends StatelessWidget {
             Center(
               child: Container(
 
-                height: 205,
+                height: 230,
                 width: 370,
                 child: Card(
                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-
+                        margin:EdgeInsets.fromLTRB(5, 15, 5, 15),
                   elevation:5.5 ,
                   color: Colors.white,
 
@@ -48,7 +51,7 @@ class appointments extends StatelessWidget {
                           child: ListTile(
 
                             title:
-                             Text("Tuesday,14/7/020" ,style: TextStyle(color:Colors.white, fontSize:24,),),
+                             Text("Tuesday,14/7/020" ,style: TextStyle(color:Colors.white, fontSize:20,),),
 
                             ),
                         ),
