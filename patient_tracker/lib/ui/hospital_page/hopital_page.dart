@@ -10,6 +10,7 @@ class HospitalPage extends StatefulWidget {
 }
 
 class _HospitalPage extends State<HospitalPage> {
+  Color _mainColor = Color(0xff1EB2A2);
   final List<HospetalList> hospitalList = [
     HospetalList(
         hospitalname: "Hospital Name1",
@@ -140,7 +141,9 @@ class _HospitalPage extends State<HospitalPage> {
                     margin: EdgeInsets.fromLTRB(3, 10, 3, 5),
                     width: 100,
                     height: 100,
-                    decoration: BoxDecoration(shape: BoxShape.circle),
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                    ),
                     child: Image.asset(
                       "assets/images/hospital.png",
                       fit: BoxFit.cover,

@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/ui/bloodType/bloodType.dart';
+import 'package:patient_tracker/ui/editProfile/editProfile.dart';
+import 'package:patient_tracker/ui/home/home.dart';
 import 'package:patient_tracker/ui/hospital_page/hopital_page.dart';
 import 'package:patient_tracker/ui/logo/logo.dart';
+import 'package:patient_tracker/ui/profile/profile.dart';
 import 'package:patient_tracker/ui/settings/settings.dart';
 import 'package:patient_tracker/ui/sign_up/doctor_sign_up.dart';
 import 'package:patient_tracker/ui/sign_up/patient_sign_up.dart';
@@ -14,12 +18,16 @@ class NavigationBar extends StatefulWidget {
 
 class _NavigationBarState extends State<NavigationBar> {
   int _currentIndex = 0;
+  //Add the pages in Navigation Bar
   final List<Widget> _children=[
-    Logo(),
+    HomePage(),
     DoctorSignUp(),
-    PatientSignUp(),
-    Settings(),
-    HospitalPage(),
+    Profile(),
+    //PatientSignUp(),
+    BloodType(),
+   // Settings(),
+   //  HospitalPage(),
+    EditProfile(),
   ];
   void onTabTapped(int index) {
     setState(() {
@@ -57,14 +65,14 @@ class _NavigationBarState extends State<NavigationBar> {
                 ),
                 BottomNavigationBarItem(
                   icon: new Icon(Icons.notifications),
-                  title: new Text('Messages'),
+                  title: new Text('Notifications'),
                 ),
                 BottomNavigationBarItem(
                     icon: Icon(Icons.person), title: Text('Profile')),
                 BottomNavigationBarItem(
-                    icon: Icon(Icons.paste_sharp), title: Text('Appoinments')),
+                    icon: Icon(Icons.paste_sharp), title: Text('Appointments')),
                 BottomNavigationBarItem(
-                    icon: Icon(Icons.more_horiz), title: Text('Profile'))
+                    icon: Icon(Icons.logout), title: Text('Log Out'))
               ],
             ),
           )),

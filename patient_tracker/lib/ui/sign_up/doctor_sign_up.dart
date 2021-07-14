@@ -8,7 +8,7 @@ class DoctorSignUp extends StatefulWidget{
 
 }
 class _DoctorSignUpState extends State<DoctorSignUp>{
-  Color mainColor= Color(0xff099bc3);
+  Color mainColor= Color(0xff1EB2A2);
   Color darkHintTextColor=Colors.white;
   bool passwordVisibility= true;
   bool passwordVisibilityConfirm= true;
@@ -58,8 +58,11 @@ class _DoctorSignUpState extends State<DoctorSignUp>{
                   //user full name
                   TextField(
                     decoration: InputDecoration(
-                    hintText: "Full Name",
-                    hintStyle: TextStyle(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: mainColor, width: 2.0),
+                        ),
+                    labelText: "Full Name",
+                    labelStyle: TextStyle(
                       color: mainColor,
                       )
                     ),
@@ -71,8 +74,11 @@ class _DoctorSignUpState extends State<DoctorSignUp>{
                   //user ID
                   TextField(
                     decoration: InputDecoration(
-                    hintText: "ID",
-                    hintStyle: TextStyle(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: mainColor, width: 2.0),
+                        ),
+                    labelText: "ID",
+                    labelStyle: TextStyle(
                       color: mainColor,
                       )
                     ),
@@ -84,8 +90,11 @@ class _DoctorSignUpState extends State<DoctorSignUp>{
                   //user Birthday
                   TextField(
                     decoration: InputDecoration(
-                      hintText: "Birthday",
-                      hintStyle: TextStyle(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: mainColor, width: 2.0),
+                        ),
+                      labelText: "Birthday",
+                      labelStyle: TextStyle(
                       color: mainColor,
                       )
                     ),
@@ -97,8 +106,11 @@ class _DoctorSignUpState extends State<DoctorSignUp>{
                   //user Address
                   TextField(
                     decoration: InputDecoration(
-                      hintText: "Address",
-                      hintStyle: TextStyle(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: mainColor, width: 2.0),
+                        ),
+                      labelText: "Address",
+                      labelStyle: TextStyle(
                       color: mainColor,
                       )
                     ),
@@ -109,9 +121,13 @@ class _DoctorSignUpState extends State<DoctorSignUp>{
                   ),
                   //user phone Number
                   TextField(
+
                     decoration: InputDecoration(
-                      hintText: "Phone Number",
-                      hintStyle: TextStyle(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: mainColor, width: 2.0),
+                        ),
+                      labelText: "Phone Number",
+                      labelStyle: TextStyle(
                       color: mainColor,
                       )
                     ),
@@ -122,9 +138,13 @@ class _DoctorSignUpState extends State<DoctorSignUp>{
                   ),
                   //user E-mail
                   TextField(
+
                     decoration: InputDecoration(
-                      hintText: "E-mail",
-                      hintStyle: TextStyle(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: mainColor, width: 2.0),
+                        ),
+                      labelText: "E-mail",
+                      labelStyle: TextStyle(
                       color: mainColor,
                       )
                     ),
@@ -136,12 +156,15 @@ class _DoctorSignUpState extends State<DoctorSignUp>{
                   //Password
                   TextField(
                     decoration: InputDecoration(
-                      hintText: "Password",
-                      hintStyle: TextStyle(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: mainColor, width: 2.0),
+                        ),
+                      labelText: "Password",
+                      labelStyle: TextStyle(
                         color: mainColor,
                       ),
                       suffixIcon: IconButton(
-                        icon: Icon(passwordVisibility? Icons.visibility:Icons.visibility_off  ),
+                        icon: Icon(passwordVisibility? Icons.visibility:Icons.visibility_off  , color: mainColor,),
                         iconSize: 18.0,
                         onPressed:(){
                           setState((){
@@ -159,12 +182,15 @@ class _DoctorSignUpState extends State<DoctorSignUp>{
                   //Confirm Password
                   TextField(
                     decoration: InputDecoration(
-                      hintText: "Confirm Password",
-                      hintStyle: TextStyle(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: mainColor, width: 2.0),
+                        ),
+                      labelText: "Confirm Password",
+                      labelStyle: TextStyle(
                       color: mainColor,
                       ),
                         suffixIcon: IconButton(
-                        icon: Icon(passwordVisibilityConfirm? Icons.visibility:Icons.visibility_off),
+                        icon: Icon(passwordVisibilityConfirm? Icons.visibility:Icons.visibility_off, color: mainColor,),
                         iconSize: 18.0,
                         onPressed: (){
                           setState(() {
@@ -181,8 +207,11 @@ class _DoctorSignUpState extends State<DoctorSignUp>{
                   ),
                     TextField(
                       decoration: InputDecoration(
-                          hintText: "Specialty",
-                          hintStyle: TextStyle(
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: mainColor, width: 2.0),
+                          ),
+                          labelText: "Specialty",
+                          labelStyle: TextStyle(
                             color: mainColor,
                           )
                       ),
@@ -193,8 +222,11 @@ class _DoctorSignUpState extends State<DoctorSignUp>{
                     ),
                     TextField(
                       decoration: InputDecoration(
-                          hintText: "License Number",
-                          hintStyle: TextStyle(
+                          focusedBorder: OutlineInputBorder(
+                            borderSide: BorderSide(color: mainColor, width: 2.0),
+                          ),
+                          labelText: "License Number",
+                          labelStyle: TextStyle(
                             color: mainColor,
                           )
                       ),
@@ -213,16 +245,21 @@ class _DoctorSignUpState extends State<DoctorSignUp>{
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
                             MaterialButton(
+                              elevation: 0.0,
                               minWidth:40,
                               padding: EdgeInsets.fromLTRB(40.0, 10.0, 40.0, 10.0),
-                              color: mainColor,
+                              color: Colors.white,
                               onPressed: (){},
                               shape: RoundedRectangleBorder(
+                                  side: BorderSide(
+                                      color: mainColor
+                                  ),
                                 borderRadius: BorderRadius.circular(5.0)
                               ),
-                              child: Text("Previous", style: TextStyle( color: Colors.white),),
+                              child: Text("Previous", style: TextStyle( color: mainColor),),
                             ),
                             MaterialButton(
+                              elevation: 0.0,
                               minWidth: 40,
                               padding: EdgeInsets.fromLTRB(50.0, 10.0, 50.0, 10.0),
                               color: mainColor,
