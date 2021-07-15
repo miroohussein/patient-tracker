@@ -15,13 +15,29 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 //   bool password_visible=true;
 //   @override
 //   Widget build(BuildContext context) {
-class doctors_page extends StatelessWidget {
+class doctors_page extends StatefulWidget {
+  @override
+  _doctors_pageState createState() => _doctors_pageState();
+}
+
+class _doctors_pageState extends State<doctors_page> {
   @override
   Color mainColor = Color.fromRGBO(19, 138, 222,1);
+
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+
+
+          backgroundColor: Color(0xFF1EB2B2) ,
+          leading: IconButton(
+
+              onPressed: ()
+              { },
+              icon: Icon(
+                Icons.arrow_back_ios,
+                color: Colors.white,
+              )),
         actions: [
           IconButton(
               onPressed: () {},
@@ -48,16 +64,6 @@ class doctors_page extends StatelessWidget {
                 child: Column(
                   children:<Widget>[
                    ListTile(
-                        // leading: Container(
-                        //
-                        //   child: CircleAvatar(
-                        //     radius: 50,
-                        //
-                        //     child: Container(
-                        //       child: Image.asset("assets/images/dr.png",fit: BoxFit.cover,),
-                        //     ),
-                        //   ),
-                        // ),
                      title: Padding(
                        padding: const EdgeInsets.fromLTRB(100, 5, 0, 0),
                        child: Text("Doctor name" ,style: TextStyle(color:mainColor, fontSize:25, fontWeight:FontWeight.bold),),

@@ -26,7 +26,7 @@ class notificationsState extends State<notifications> {
       ),
  
       body:
-      ListView.builder(itemCount: 5, itemBuilder:( BuildContext context,int index) {
+      ListView.builder(itemCount: 9, itemBuilder:( BuildContext context,int index) {
 
     return Stack(
 

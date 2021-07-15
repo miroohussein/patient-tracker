@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class DRwelcomepage extends StatelessWidget {
@@ -35,30 +36,54 @@ class DRwelcomepage extends StatelessWidget {
     textAlign: TextAlign.center,),),
     ),
     Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Column(
-      children:<Widget>[
-         Image.asset("assets/images/doctorr.png",width: 170,height: 320,),
+      padding: const EdgeInsets.fromLTRB(5, 0, 5, 100),
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Container(
+               margin: const EdgeInsets.fromLTRB(5, 5, 5, 1),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children:<Widget>[
+             Image.asset("assets/images/doctorr.png",width: 170,height: 320,),
 
-        Container(
-          width: 120,
-          height: 50,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
+            Container(
 
-            gradient: LinearGradient(colors: [Colors.greenAccent,Colors.blue]),
-          ),
-          child: Center(
-            child: MaterialButton(
-                padding: EdgeInsets.fromLTRB(20, 15, 15, 15),
-                onPressed:(){},
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                child: Text("Sign up",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),)
+              width: 120,
+              height: 50,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+
+                gradient: LinearGradient(colors: [Colors.greenAccent,Colors.blue]),
+              ),
+              child: Center(
+                child: Container(
+
+                  child: MaterialButton(
+                      padding: EdgeInsets.fromLTRB(20, 10, 15, 15),
+                      onPressed:(){},
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                      child: Text("Sign up",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),)
+                  ),
+                ),
+              ),
             ),
-          ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                mainAxisAlignment:MainAxisAlignment.spaceAround ,
+                children: [
+                  Text("Already have an account?",style:TextStyle(color: Colors.teal),),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(15, 5, 5, 8),
+                    child: TextButton(onPressed: (){}, child: Text("Sign in")),
+                  )
+                ],
+              ),
+            )
+                                              ],
+                                                     ),
         ),
-                                          ],
-                                                 ),
+      ),
     ),
                                          ],), ),),),);
                                                 }}

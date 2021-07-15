@@ -39,7 +39,7 @@ class sign_inState extends State<sign_in> {
                width: 350,
                height: 320,
                decoration: BoxDecoration(
-                 border:Border.all(color: mainColor),
+                 border:Border.all( color: Color(0xFF1EB2B2) ,),
                  color: Colors.white,
                  borderRadius: BorderRadius.circular(10),
                ),
@@ -47,9 +47,9 @@ class sign_inState extends State<sign_in> {
                children: <Widget>[
                  Padding(
                    padding: const EdgeInsets.all(8.0),
-                   child: Icon(Icons.add_to_home_screen,color: mainColor,),
+                   child: Icon(Icons.add_to_home_screen, color: Color(0xFF1EB2B2) ,),
                  ),
-                 Text("Sign in",style: TextStyle(color: mainColor, fontSize: 20),
+                 Text("Sign in",style: TextStyle( color: Color(0xFF1EB2B2) ,fontSize: 20),
                  ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -58,7 +58,7 @@ class sign_inState extends State<sign_in> {
                           labelText: "E-mail",
                          suffixIcon: Icon(Icons.email),
                           labelStyle: TextStyle(
-                            color: mainColor,
+                            color: Color(0xFF1EB2B2) ,
                             fontSize: 17,
                           ),),
                       ),),
@@ -69,7 +69,7 @@ class sign_inState extends State<sign_in> {
                      decoration: InputDecoration(
                        labelText: "Password",
                        labelStyle: TextStyle(
-                         color: mainColor,
+                         color: Color(0xFF1EB2B2) ,
                          fontSize: 17,
 
                        ),
@@ -101,10 +101,10 @@ class sign_inState extends State<sign_in> {
                              child: MaterialButton(
 
                                  padding: EdgeInsets.fromLTRB(30, 10, 30, 10),
-                                  color: mainColor,
+                                  color: Colors.white,
                                    onPressed:(){},
-                                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-                                      child: Text("previous",style: TextStyle(color: Colors.white,),)
+                                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10),side:BorderSide(color: Colors.teal,),),
+                                      child: Text("previous",style: TextStyle( color: Color(0xFF1EB2B2) ,),)
                                        ),
                            ),
 
@@ -112,7 +112,7 @@ class sign_inState extends State<sign_in> {
                            padding: const EdgeInsets.all(20.0),
                            child: MaterialButton(
                                padding: EdgeInsets.fromLTRB(30, 10, 30, 10),
-                                 color: mainColor,
+                                 color: Color(0xFF1EB2B2) ,
                                  onPressed:(){},
                                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                                  child: Text("  Next    ",style: TextStyle(color: Colors.white,),textAlign:TextAlign.center,)

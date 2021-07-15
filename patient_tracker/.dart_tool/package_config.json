@@ -68,6 +68,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "grouped_list",
+      "rootUri": "file:///C:/Users/Android2/flutter/.pub-cache/hosted/pub.dartlang.org/grouped_list-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "matcher",
       "rootUri": "file:///C:/Users/Android2/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10",
       "packageUri": "lib/",
@@ -146,7 +152,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-07-13T00:18:34.861275Z",
+  "generated": "2021-07-15T07:54:00.401407Z",
   "generator": "pub",
   "generatorVersion": "2.12.3"
 }

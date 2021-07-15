@@ -55,6 +55,11 @@ class PATIENTwelcomepage extends StatelessWidget {
                   child: Text("Sign up",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),)
               ),
             ),
+
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text("Already have an account? Sign in",style:TextStyle(color: Colors.lightBlue),),
           ),
         ],
       ),

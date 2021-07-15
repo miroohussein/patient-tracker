@@ -23,27 +23,20 @@ class DRorPATIENT extends StatelessWidget {
              child:SingleChildScrollView(
                child: Column(
                  children: <Widget> [
-                   Row(
-                     children: [
+
                        Container(
 
-                           margin: EdgeInsets.fromLTRB(100, 10, 5, 0),
+                           margin: EdgeInsets.fromLTRB(10, 10, 5, 0),
                            child: Center(child: Image.asset("assets/images/logo.png",width: 200,height: 200))
 
                        ),
-                       Container(
-
-                         margin: EdgeInsets.fromLTRB(25, 5, 5, 150),
-                           child: Image.asset("assets/images/admin3.png",width: 35,height: 35,),
-                         ) ,
 
 
 
 
 
-                     ],
 
-                     ),
+
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Center(
@@ -91,34 +84,41 @@ class DRorPATIENT extends StatelessWidget {
                           ],
                         ),
                              ),
-                                Column(
-                                 children:<Widget>[
-                                   Image.asset("assets/images/patient.png",width: 170,height: 320,) ,
+                                Padding(
+                                  padding: const EdgeInsets.fromLTRB(25, 5, 5, 5),
+                                  child: Container(
+
+                                    child: Column(
+
+                                      children:<Widget>[
+                                       Image.asset("assets/images/patient.png",width: 170,height: 320,) ,
 
 
-                                   Container(
-                                     width: 100,
-                                     height: 60,
-                                     decoration: BoxDecoration(
-                                       borderRadius: BorderRadius.circular(20),
+                                       Container(
+                                         width: 100,
+                                         height: 60,
+                                         decoration: BoxDecoration(
+                                           borderRadius: BorderRadius.circular(20),
 
-                                       gradient: LinearGradient(colors: [Colors.greenAccent,Colors.blue]),
-                                     ),
-                                     child: Padding(
-                                       padding: const EdgeInsets.all(8.0),
-                                       child: Center(
-                                         child: MaterialButton(
-                                             padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
+                                           gradient: LinearGradient(colors: [Colors.greenAccent,Colors.blue]),
+                                         ),
+                                         child: Padding(
+                                           padding: const EdgeInsets.all(8.0),
+                                           child: Center(
+                                             child: MaterialButton(
+                                                 padding: EdgeInsets.fromLTRB(15, 15, 15, 15),
 
-                                             onPressed:(){},
-                                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-                                             child: Text("Patient",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),)
+                                                 onPressed:(){},
+                                                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                                                 child: Text("Patient",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),)
+                                             ),
+                                           ),
                                          ),
                                        ),
-                                     ),
-                                   ),
-                                 ],
+                                     ],
                                ),
+                                  ),
+                                ),
 
                ],
                    ),

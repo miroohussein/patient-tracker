@@ -1,8 +1,9 @@
 
-// import 'package:shape_of_view/shape_of_view.dart';
+
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 
 class dr_page  extends StatefulWidget {
   @override
@@ -13,6 +14,21 @@ class dr_page  extends StatefulWidget {
 
 class dr_pageState extends State<dr_page> {
   Color mainColor = Color.fromRGBO(19, 138, 222,1);
+  int index =0;
+  final dr_page_list1 =[
+    "Tue 1/6",
+    "Mon 31/5",
+    "Wed 2/6",
+    "Thurs 3/6"
+  ];
+  final dr_page_list2 =[
+
+    "From:To",
+    "10pm:11pm",
+    "10pm:11pm",
+
+
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -147,11 +163,14 @@ class dr_pageState extends State<dr_page> {
                     children:<Widget> [
                       Padding(
                         padding: const EdgeInsets.fromLTRB(45, 5, 5, 5),
-                        child: new_container(),
+                        child: new_container1(
+
+
+                        ),
                       ),
                       Padding(
                         padding: const EdgeInsets.fromLTRB(5, 5, 5, 5),
-                        child: new_container(),
+                        child: new_container2(),
                       ),
 
                     ],
@@ -163,11 +182,11 @@ class dr_pageState extends State<dr_page> {
                                children:<Widget> [
                                  Padding(
                                    padding: const EdgeInsets.fromLTRB(45, 5, 5, 5),
-                                   child: new_container(),
+                                   child: new_container3(),
                                  ),
                                  Padding(
                                    padding: const EdgeInsets.fromLTRB(5, 5, 5, 5),
-                                   child: new_container(),
+                                   child: new_container4(),
                                  ),
 
                                ],
@@ -185,7 +204,7 @@ class dr_pageState extends State<dr_page> {
       ),);
                           }
 
- Stack new_container() {
+Stack new_container1() {
     return Stack(
 
         children: [
@@ -193,9 +212,21 @@ class dr_pageState extends State<dr_page> {
 
             height: 150,
             width: 116,
-            decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),   color:Colors.white),),
-          Container(
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),   color:Colors.white),
 
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Center(child: Text("from 3pm:to 9pm",style: TextStyle(fontSize:10,fontWeight: FontWeight.bold),)),
+                  ),
+
+          ),
+          Container(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+
+              child: Center(child: Text("Tue 1/6",style: TextStyle(fontSize: 20,color: Colors.white,),)),
+
+            ),
             height: 42,
             width: 116,
             decoration: BoxDecoration(borderRadius: BorderRadius.only(topLeft: Radius.circular(20),topRight: Radius.circular(20),),   color:Color(0xFF1EB2A2)),),
@@ -205,7 +236,8 @@ class dr_pageState extends State<dr_page> {
 
               height: 42,
               width: 116,
-              decoration: BoxDecoration(borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20),bottomRight: Radius.circular(20),),   color:Colors.red,),),
+              decoration: BoxDecoration(borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20),bottomRight: Radius.circular(20),),   color:Colors.red,),
+              child: Center(child: Text("Book",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),)),),
           ),
 
         ],
@@ -214,5 +246,141 @@ class dr_pageState extends State<dr_page> {
     );
 
 
+
  }
+  Stack new_container2() {
+    return Stack(
+
+      children: [
+        Container(
+
+          height: 150,
+          width: 116,
+          decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),   color:Colors.white),
+
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Center(child: Text("from 3pm:to 9pm",style: TextStyle(fontSize: 10,fontWeight: FontWeight.bold),)),
+          ),
+
+        ),
+        Container(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+
+            child: Center(child: Text("Mon 31/6",style: TextStyle(fontSize: 20,color: Colors.white,),)),
+
+          ),
+          height: 42,
+          width: 116,
+          decoration: BoxDecoration(borderRadius: BorderRadius.only(topLeft: Radius.circular(20),topRight: Radius.circular(20),),   color:Color(0xFF1EB2A2)),),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(0, 112, 50, 3),
+          child: Container(
+
+            height: 42,
+            width: 116,
+            decoration: BoxDecoration(borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20),bottomRight: Radius.circular(20),),   color:Colors.red,),
+            child: Center(child: Text("Book",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),)),),
+        ),
+
+      ],
+
+
+    );
+
+
+
+  }
+  Stack new_container3() {
+    return Stack(
+
+      children: [
+        Container(
+
+          height: 150,
+          width: 116,
+          decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),   color:Colors.white),
+
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Center(child: Text("from 8am:to 2pm",style: TextStyle(fontSize: 10,fontWeight: FontWeight.bold),)),
+          ),
+
+        ),
+        Container(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+
+            child: Center(child: Text("Sat 4/4",style: TextStyle(fontSize: 20,color: Colors.white,),)),
+
+          ),
+          height: 42,
+          width: 116,
+          decoration: BoxDecoration(borderRadius: BorderRadius.only(topLeft: Radius.circular(20),topRight: Radius.circular(20),),   color:Color(0xFF1EB2A2)),),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(0, 112, 50, 3),
+          child: Container(
+
+            height: 42,
+            width: 116,
+            decoration: BoxDecoration(borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20),bottomRight: Radius.circular(20),),   color:Colors.red,),
+            child: Center(child: Text("Book",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),)),),
+        ),
+
+      ],
+
+
+    );
+
+
+
+  }
+  Stack new_container4() {
+    return Stack(
+
+      children: [
+        Container(
+
+          height: 150,
+          width: 116,
+          decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),   color:Colors.white),
+
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Center(child: Text("from 8am:to 2pm",style: TextStyle(fontSize: 10,fontWeight: FontWeight.bold,),)),
+          ),
+
+        ),
+        Container(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+
+            child: Center(child: Text("Tue 1/6",style: TextStyle(fontSize: 20,color: Colors.white,),)),
+
+          ),
+          height: 42,
+          width: 116,
+          decoration: BoxDecoration(borderRadius: BorderRadius.only(topLeft: Radius.circular(20),topRight: Radius.circular(20),),   color:Color(0xFF1EB2A2)),),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(0, 112, 50, 3),
+          child: Container(
+
+            height: 42,
+            width: 116,
+            decoration: BoxDecoration(borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20),bottomRight: Radius.circular(20),), color:Colors.grey,),
+                child: Center(child: Text("Complete",style: TextStyle(fontWeight:FontWeight.bold,color: Colors.white),)),
+
+          ),
+
+        ),
+
+      ],
+
+
+    );
+
+
+
+  }
                         }
