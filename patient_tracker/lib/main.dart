@@ -1,7 +1,26 @@
+
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/ui/ChooseDRorPatient/ChooseDRorPatient.dart';
+import 'package:patient_tracker/ui/ClinicOrHospital/ClinicOnHospital.dart';
+import 'package:patient_tracker/ui/DRandPATIENTwelcomepages/PATIENTwelcomepage.dart';
+import 'package:patient_tracker/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart';
+import 'package:patient_tracker/ui/Doctors%20page/Doctors%20page.dart';
+import 'package:patient_tracker/ui/MedicalHistory/MedicalHistory.dart';
+import 'package:patient_tracker/ui/New%20services/new_services.dart';
+import 'package:patient_tracker/ui/Notifications/Notifications.dart';
+import 'package:patient_tracker/ui/Records/records.dart';
+import 'package:patient_tracker/ui/Sign_inPAGE/sign_in.dart';
+import 'package:patient_tracker/ui/appointments/Appointments.dart';
+import 'package:patient_tracker/ui/dr_page/dr_page.dart';
+import 'package:patient_tracker/ui/home_page/home_page.dart';
+import 'package:patient_tracker/ui/records2/records2.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(debugShowCheckedModeBanner: false,
+    home: dr_page()));
 }
 
 class MyApp extends StatelessWidget {

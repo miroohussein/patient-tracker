@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/patient_tracker/MainActivity.java
+ com.example.patient_tracker.MainActivity
+com/example/patient_tracker/BuildConfig.java
+ com.example.patient_tracker.BuildConfig

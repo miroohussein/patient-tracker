@@ -1,0 +1,392 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:1:1-41:12
+INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:1:1-41:12
+MERGED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:1:1-41:12
+MERGED from [:firebase_auth] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\6ac3be24d71f973519098355375f6055\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\a03f25290325fdd2c40eb7fd7efc3558\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\1ca412b5ae4cdf38325330db753650ec\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9417d41dde92678ab8488ec0684ca850\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\848664855eece631e6d3d9b26ba85d64\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\0549b1970abf12c4fa68c0b9507bca96\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c0b8118ff3dacfbf387fd6d956a49868\jetified-play-services-basement-17.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\41171fdae3c749f44529dbd49607cfa1\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cb12cead8292510d670c09fbbd50f655\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\795676b9e46636af14828c9a1dc1bc46\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\245aaa699df46d41a171a57f451b218d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\f7437b3c59bfacbdc85523d95b7efaf7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\d68c2dd6c559e1e09125f815ea6604d1\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\fde9f72722cd7095ed4a71fdaa542997\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cced6019e4ba2aa0e8c4f9b0c42bf888\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\5d3192adb20d9bf386886018ccfc00f4\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\7e2f1c0f522880151e01ce98ebf4c3f7\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\5790aed02e41a3a72b215a908fdf5919\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\bc41568f187cafaf5fb6dce3136d9ccf\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\abff359926dc653ec85f53a0b815185d\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\80dc6a7f174481fe25dcedc41ed68001\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\e40219194818938914e0025be673ba29\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\073318bc4a888a7429a222094b585d26\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\1c760e31cba5c2344894984efa294e1d\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\adc33b9f2c18bf619de9d8f63b64cba8\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\145b3b5f45e16a7a4e3abf5408878e20\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\7cdb36d12a0b4e03e8265bb20860bf44\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\44ff7ce35f0146169ed0f345c71f89b7\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c010b46191cc144277852fe8003e420f\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\1c7b30d600fe1b4a44f027f3958914d0\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\afae8ae66497155cb7685eedef0d90cd\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\d3fca96bb4379e0d1a842188a39af196\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\d8897a0c7a6d411baabc6933517a8838\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\8a43e4cb08b9d5efaaff92255a9e853a\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9cd4656b7fe37a796b3a4a34c7e0217f\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\056c090b7b933fc6addfa1a75beb9e17\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:2:5-42
+		INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:1:1-41:12
+		INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:3:4-40:19
+MERGED from [:firebase_auth] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\a03f25290325fdd2c40eb7fd7efc3558\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\a03f25290325fdd2c40eb7fd7efc3558\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9417d41dde92678ab8488ec0684ca850\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9417d41dde92678ab8488ec0684ca850\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\848664855eece631e6d3d9b26ba85d64\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\848664855eece631e6d3d9b26ba85d64\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\0549b1970abf12c4fa68c0b9507bca96\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\0549b1970abf12c4fa68c0b9507bca96\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c0b8118ff3dacfbf387fd6d956a49868\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c0b8118ff3dacfbf387fd6d956a49868\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\80dc6a7f174481fe25dcedc41ed68001\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\80dc6a7f174481fe25dcedc41ed68001\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c010b46191cc144277852fe8003e420f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c010b46191cc144277852fe8003e420f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\80dc6a7f174481fe25dcedc41ed68001\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:4:9-40
+	android:icon
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:5:9-43
+activity#com.example.patient_tracker.MainActivity
+ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:6:9-34:20
+	android:launchMode
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:8:13-43
+	android:hardwareAccelerated
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:11:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:12:13-55
+	android:configChanges
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:10:13-163
+	android:theme
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:9:13-47
+	android:name
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:7:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:17:13-20:17
+	android:resource
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:19:15-52
+	android:name
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:18:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:26:13-29:17
+	android:resource
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:28:15-61
+	android:name
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:27:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:32:27-74
+meta-data#flutterEmbedding
+ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:37:9-39:33
+	android:value
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:39:13-30
+	android:name
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml:38:13-44
+uses-sdk
+INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml
+MERGED from [:firebase_auth] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\6ac3be24d71f973519098355375f6055\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\6ac3be24d71f973519098355375f6055\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\a03f25290325fdd2c40eb7fd7efc3558\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\a03f25290325fdd2c40eb7fd7efc3558\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\1ca412b5ae4cdf38325330db753650ec\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\1ca412b5ae4cdf38325330db753650ec\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9417d41dde92678ab8488ec0684ca850\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9417d41dde92678ab8488ec0684ca850\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\848664855eece631e6d3d9b26ba85d64\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\848664855eece631e6d3d9b26ba85d64\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\0549b1970abf12c4fa68c0b9507bca96\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\0549b1970abf12c4fa68c0b9507bca96\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c0b8118ff3dacfbf387fd6d956a49868\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c0b8118ff3dacfbf387fd6d956a49868\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\41171fdae3c749f44529dbd49607cfa1\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\41171fdae3c749f44529dbd49607cfa1\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cb12cead8292510d670c09fbbd50f655\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cb12cead8292510d670c09fbbd50f655\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\795676b9e46636af14828c9a1dc1bc46\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\795676b9e46636af14828c9a1dc1bc46\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\245aaa699df46d41a171a57f451b218d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\245aaa699df46d41a171a57f451b218d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\f7437b3c59bfacbdc85523d95b7efaf7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\f7437b3c59bfacbdc85523d95b7efaf7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\d68c2dd6c559e1e09125f815ea6604d1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\d68c2dd6c559e1e09125f815ea6604d1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\fde9f72722cd7095ed4a71fdaa542997\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\fde9f72722cd7095ed4a71fdaa542997\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cced6019e4ba2aa0e8c4f9b0c42bf888\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cced6019e4ba2aa0e8c4f9b0c42bf888\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\5d3192adb20d9bf386886018ccfc00f4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\5d3192adb20d9bf386886018ccfc00f4\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\7e2f1c0f522880151e01ce98ebf4c3f7\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\7e2f1c0f522880151e01ce98ebf4c3f7\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\5790aed02e41a3a72b215a908fdf5919\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\5790aed02e41a3a72b215a908fdf5919\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\bc41568f187cafaf5fb6dce3136d9ccf\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\bc41568f187cafaf5fb6dce3136d9ccf\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\abff359926dc653ec85f53a0b815185d\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\abff359926dc653ec85f53a0b815185d\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\80dc6a7f174481fe25dcedc41ed68001\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\80dc6a7f174481fe25dcedc41ed68001\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\e40219194818938914e0025be673ba29\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\e40219194818938914e0025be673ba29\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\073318bc4a888a7429a222094b585d26\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\073318bc4a888a7429a222094b585d26\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\1c760e31cba5c2344894984efa294e1d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\1c760e31cba5c2344894984efa294e1d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\adc33b9f2c18bf619de9d8f63b64cba8\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\adc33b9f2c18bf619de9d8f63b64cba8\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\145b3b5f45e16a7a4e3abf5408878e20\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\145b3b5f45e16a7a4e3abf5408878e20\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\7cdb36d12a0b4e03e8265bb20860bf44\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\7cdb36d12a0b4e03e8265bb20860bf44\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\44ff7ce35f0146169ed0f345c71f89b7\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\44ff7ce35f0146169ed0f345c71f89b7\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c010b46191cc144277852fe8003e420f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c010b46191cc144277852fe8003e420f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\1c7b30d600fe1b4a44f027f3958914d0\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\1c7b30d600fe1b4a44f027f3958914d0\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\afae8ae66497155cb7685eedef0d90cd\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\afae8ae66497155cb7685eedef0d90cd\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\d3fca96bb4379e0d1a842188a39af196\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\d3fca96bb4379e0d1a842188a39af196\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\d8897a0c7a6d411baabc6933517a8838\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\d8897a0c7a6d411baabc6933517a8838\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\8a43e4cb08b9d5efaaff92255a9e853a\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\8a43e4cb08b9d5efaaff92255a9e853a\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9cd4656b7fe37a796b3a4a34c7e0217f\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9cd4656b7fe37a796b3a4a34c7e0217f\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\056c090b7b933fc6addfa1a75beb9e17\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\056c090b7b933fc6addfa1a75beb9e17\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src\debug\AndroidManifest.xml:6:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_auth] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\056c090b7b933fc6addfa1a75beb9e17\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\056c090b7b933fc6addfa1a75beb9e17\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\ba7ac2cbd19833a342f190b04e872d60\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:23.0.1] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\cbb4dd00a77ee30c7ef3a16d677c1603\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:21:17-111
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9417d41dde92678ab8488ec0684ca850\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9417d41dde92678ab8488ec0684ca850\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9417d41dde92678ab8488ec0684ca850\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\9417d41dde92678ab8488ec0684ca850\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\dd3c2617c0f6359f3b13e51ce6c2db19\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c0b8118ff3dacfbf387fd6d956a49868\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c0b8118ff3dacfbf387fd6d956a49868\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Administrator.CRIZMA-LAPTOP\.gradle\caches\transforms-2\files-2.1\c0b8118ff3dacfbf387fd6d956a49868\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
