@@ -1,3 +1,5 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -23,6 +25,34 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  @override
+  void initState() {
+    super.initState();
+    initial();
+  }
+
+  var name = 'Doctor';
+
+  void initial() async {
+    User? user = FirebaseAuth.instance.currentUser;
+
+    if (user != null) {
+      name = await FirebaseFirestore.instance
+          .collection('Users')
+          .doc(user.email)
+          .get()
+          .then((value) => value.data()!['Name']);
+
+      setState(() {
+        name;
+      });
+    } else {
+      setState(() {
+        name = 'Doctor';
+      });
+    }
+  }
+
   Color _mainColor = Color(0xff1EB2A2);
   Color _secondary = Colors.white10;
 
@@ -57,7 +87,6 @@ class _HomePageState extends State<HomePage> {
   ];
 
   Widget build(BuildContext context) {
-    String _name = 'Mohammed';
     return SafeArea(
       child: Scaffold(
         body: Container(
@@ -83,7 +112,7 @@ class _HomePageState extends State<HomePage> {
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        _name,
+                        name,
                         style: TextStyle(
                             color: Color(0xFF000000),
                             fontSize: 35,
