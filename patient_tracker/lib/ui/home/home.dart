@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:patient_tracker/iconspatient_icons.dart';
 import 'package:patient_tracker/pojoLists/cardDecoration.dart';
+import 'package:patient_tracker/ui/New%20services/new_services.dart';
 import 'package:patient_tracker/ui/bloodType/bloodType.dart';
 import 'package:patient_tracker/ui/editProfile/editProfile.dart';
 import 'package:patient_tracker/ui/hospital_page/hopital_page.dart';
@@ -205,50 +206,18 @@ class _HomePageState extends State<HomePage> {
                 color: Color(0xff34CBB2),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(35.0)),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => UpcomingServices()),
+                  );
+                },
                 textColor: Colors.white70,
               ),
               SizedBox(
                 height: 20,
               ),
 
-              // StaggeredGridView.count(
-              //     crossAxisCount:  3,
-              //     crossAxisSpacing: 15.0,
-              //     mainAxisSpacing: 15.0,
-              //   padding: EdgeInsets.symmetric(horizontal: 16.0,vertical: 8.0),
-              //   children: [
-              //     //blue - child
-              //     categoryItem(Icons.ac_unit_sharp,"child", 0xff0D5ADF),
-              //     //red - Brain&Nerves
-              //     categoryItem(Icons.ac_unit_sharp,"Brain&Nerves", 0xffEF1027),
-              //     //green - Bones
-              //     categoryItem(Icons.ac_unit_sharp,"Bones", 0xff1EB2A2),
-              //     //red - Cardiac
-              //     categoryItem(Icons.ac_unit_sharp,"Cardiac", 0xffEF1027),
-              //     //green - Gynaecology & Infertility
-              //     categoryItem(Icons.ac_unit_sharp,"Gynaecology & Infertility", 0xff1EB2A2),
-              //     //blue - Dental
-              //     categoryItem(Icons.ac_unit_sharp,"Dental", 0xff0D5ADF),
-              //     //blue - Dermatology
-              //     categoryItem(Icons.ac_unit_sharp,"Dermatology", 0xff0D5ADF),
-              //     //red - Ear,Nose & Throat
-              //     categoryItem(Icons.ac_unit_sharp,"Ear,Nose & Throat", 0xffEF1027),
-              //     //green - Mental & Emotional
-              //     categoryItem(Icons.ac_unit_sharp,"Mental & Emotional", 0xff1EB2A2),
-              //   ],
-              //   staggeredTiles: [
-              //     StaggeredTile.extent(1, 100.0),
-              //     StaggeredTile.extent(1, 100.0),
-              //     StaggeredTile.extent(1, 100.0),
-              //     StaggeredTile.extent(1, 100.0),
-              //     StaggeredTile.extent(1, 100.0),
-              //     StaggeredTile.extent(1, 100.0),
-              //     StaggeredTile.extent(1, 100.0),
-              //     StaggeredTile.extent(1, 100.0),
-              //     StaggeredTile.extent(1, 100.0),
-              //   ],
-              // )
             ],
           ),
         ),

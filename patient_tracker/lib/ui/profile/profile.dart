@@ -2,17 +2,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:patient_tracker/main.dart';
 import 'package:patient_tracker/pojoLists/cardDecoration.dart';
+import 'package:patient_tracker/ui/MedicalHistory/MedicalHistory.dart';
+import 'package:patient_tracker/ui/New%20services/new_services.dart';
 import 'package:patient_tracker/ui/bloodType/bloodType.dart';
 import 'package:patient_tracker/ui/editProfile/editProfile.dart';
 import 'package:patient_tracker/ui/home/home.dart';
 import 'package:patient_tracker/ui/hospital_page/hopital_page.dart';
 import 'package:patient_tracker/ui/medications/medications.dart';
-import 'package:patient_tracker/ui/navigationBar/Bar.dart';
-import 'package:patient_tracker/ui/navigationBar/globalNavigationBar.dart';
-import 'package:patient_tracker/ui/navigationBar/navigationBar.dart';
-import 'package:patient_tracker/ui/settings/settings.dart';
 import 'package:patient_tracker/ui/sign_up/doctor_sign_up.dart';
-import 'package:patient_tracker/ui/sign_up/patient_sign_up.dart';
 
 class Profile extends StatefulWidget {
   const Profile({Key? key}) : super(key: key);
@@ -206,13 +203,13 @@ class _ProfileState extends State<Profile> with AutomaticKeepAliveClientMixin{
     } else if (index == 1) {
       page = BloodType();
     } else if (index == 2) {
-      page = BloodType();
+      page = MedicalHistory();
     } else if (index == 3) {
       page = Medication();
     } else if (index == 4) {
       page = HospitalPage();
     } else if (index == 5) {
-      page = EditProfile();
+      page = UpcomingServices();
     }
     return page;
   }

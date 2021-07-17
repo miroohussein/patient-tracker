@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:patient_tracker/jsonClass/hospitsl_list.dart';
-
+import 'package:patient_tracker/ui/Doctors%20page/Doctors%20page.dart';
 import '../../main.dart';
 
 class HospitalPage extends StatefulWidget {
@@ -148,6 +148,13 @@ class _HospitalPage extends State<HospitalPage> with AutomaticKeepAliveClientMix
                           ),
                         ],
                       ),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => doctors_page()),
+                        );
+                      },
                     ),
                   ),
                 ),

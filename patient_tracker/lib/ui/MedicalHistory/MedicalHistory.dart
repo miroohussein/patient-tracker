@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/ui/profile/profile.dart';
 
 class MedicalHistory extends StatelessWidget {
 
@@ -14,7 +15,10 @@ class MedicalHistory extends StatelessWidget {
         leading: IconButton(
 
             onPressed: ()
-            { },
+            { Navigator.pop(
+              context,
+              MaterialPageRoute(builder: (context) => Profile()),
+            ); },
             icon: Icon(
               Icons.arrow_back_ios,
               color: Colors.white,

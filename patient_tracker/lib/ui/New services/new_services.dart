@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/ui/profile/profile.dart';
 class UpcomingServices  extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -24,7 +25,17 @@ class UpcomingServicesState extends State<UpcomingServices> {
           ),),
 
         ),
-      ),
+    leading: IconButton(
+
+    onPressed: ()
+    { Navigator.pop(
+    context,
+    MaterialPageRoute(builder: (context) => Profile()),
+    ); }, icon: Icon(
+      Icons.arrow_back_ios,
+      color: Colors.white,
+    )
+      )),
 
       body:
         SingleChildScrollView(

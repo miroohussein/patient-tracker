@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\Documents\\GitHub\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
+            "outputFile": "C:\\Users\\Imex\\Documents\\GitHub\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\.gradle\\caches\\transforms-2\\files-2.1\\80dc6a7f174481fe25dcedc41ed68001\\core-1.1.0\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\Imex\\.gradle\\caches\\transforms-2\\files-2.1\\80dc6a7f174481fe25dcedc41ed68001\\core-1.1.0\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\.gradle\\caches\\transforms-2\\files-2.1\\c0b8118ff3dacfbf387fd6d956a49868\\jetified-play-services-basement-17.1.0\\res\\values-hu\\values.xml",
+                    "source": "C:\\Users\\Imex\\.gradle\\caches\\transforms-2\\files-2.1\\c0b8118ff3dacfbf387fd6d956a49868\\jetified-play-services-basement-17.1.0\\res\\values-hu\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\.gradle\\caches\\transforms-2\\files-2.1\\9417d41dde92678ab8488ec0684ca850\\jetified-play-services-base-17.1.0\\res\\values-hu\\values.xml",
+                    "source": "C:\\Users\\Imex\\.gradle\\caches\\transforms-2\\files-2.1\\9417d41dde92678ab8488ec0684ca850\\jetified-play-services-base-17.1.0\\res\\values-hu\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

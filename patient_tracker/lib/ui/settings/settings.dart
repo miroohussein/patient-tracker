@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/ui/appointments/Appointments.dart';
+import 'package:patient_tracker/ui/editProfile/editProfile.dart';
 import 'package:patient_tracker/ui/hospital_page/hopital_page.dart';
+import 'package:patient_tracker/ui/navigationBar/bart.dart';
+import 'package:patient_tracker/ui/profile/profile.dart';
 
 
 class Settings extends StatefulWidget {
@@ -22,17 +26,17 @@ class _SettingsState extends State<Settings> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => HospitalPage()),
-              );
-            },
-            icon: Icon(
-              Icons.arrow_back_ios,
-              color: Colors.white,
-            )),
+        // leading: IconButton(
+        //     onPressed: () {
+        //       Navigator.pop(
+        //         context,
+        //         MaterialPageRoute(builder: (context) => Profile()),
+        //       );
+        //     },
+        //     icon: Icon(
+        //       Icons.arrow_back_ios,
+        //       color: Colors.white,
+        //     )),
         centerTitle: true,
         backgroundColor: Color(0xff1EB2A2),
         title: Text(
@@ -97,11 +101,12 @@ class _SettingsState extends State<Settings> {
                         width: 1.0,
                       ),
                     ),
-                    // Button(
-                    // style: ButtonStyle(
-                    // backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
-                    //),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pop(
+                        context,
+                        MaterialPageRoute(builder: (context) => EditProfile()),
+                      );
+                    },
                     child: Padding(
                       padding: const EdgeInsets.all(20.0),
                       child: Row(
@@ -143,12 +148,13 @@ class _SettingsState extends State<Settings> {
                         width: 1.0,
                       ),
                     ),
-                    // Button(
-                    // style: ButtonStyle(
-                    // backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
 
-                    //),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pop(
+                        context,
+                        MaterialPageRoute(builder: (context) => EditProfile()),
+                      );
+                    },
                     child: Padding(
                       padding: const EdgeInsets.all(20.0),
                       child: Row(
@@ -191,12 +197,13 @@ class _SettingsState extends State<Settings> {
                         width: 1.0,
                       ),
                     ),
-                    // Button(
-                    // style: ButtonStyle(
-                    // backgroundColor: MaterialStateProperty.all<Color>(Colors.white),
 
-                    //),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pop(
+                        context,
+                        MaterialPageRoute(builder: (context) => appointments()),
+                      );
+                    },
                     child: Padding(
                       padding: const EdgeInsets.all(20.0),
                       child: Row(
