@@ -4,13 +4,6 @@ class BloodTypeList {
   String patientPhoneNumber;
   String patientRelativeType;
 
-  BloodTypeList(
-      this.bloodType,
-     this.patientRelativeName,
-     this.patientPhoneNumber,
-      this.patientRelativeType
-);
-
-
-
+  BloodTypeList(this.bloodType, this.patientRelativeName,
+      this.patientPhoneNumber, this.patientRelativeType);
 }

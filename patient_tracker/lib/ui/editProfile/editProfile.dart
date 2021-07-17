@@ -23,7 +23,7 @@ class _EditProfileState extends State<EditProfile> {
         title: Text('Edit Profile', style: TextStyle(color: Colors.white,fontSize: 25.0), ),
         leading: IconButton(
             onPressed: () {
-              Navigator.push(
+              Navigator.pop(
                 context,
                 MaterialPageRoute(builder: (context) => Profile()),
               );

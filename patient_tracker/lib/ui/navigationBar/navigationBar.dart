@@ -1,3 +1,4 @@
+import 'dart:collection';
 import 'package:flutter/material.dart';
 import 'package:patient_tracker/ui/bloodType/bloodType.dart';
 import 'package:patient_tracker/ui/editProfile/editProfile.dart';
@@ -16,66 +17,90 @@ class NavigationBar extends StatefulWidget {
   _NavigationBarState createState() => _NavigationBarState();
 }
 
-class _NavigationBarState extends State<NavigationBar> {
-  int _currentIndex = 0;
-  //Add the pages in Navigation Bar
-  final List<Widget> _children=[
+class _NavigationBarState extends State<NavigationBar> with AutomaticKeepAliveClientMixin {
+  List<Widget> children=<Widget>[
     HomePage(),
     DoctorSignUp(),
     Profile(),
     //PatientSignUp(),
     BloodType(),
-   // Settings(),
-   //  HospitalPage(),
+    // Settings(),
+    //  HospitalPage(),
     EditProfile(),
   ];
+
+  int _currentIndex = 0;
+  //Add the pages in Navigation Bar
   void onTabTapped(int index) {
+
     setState(() {
       _currentIndex = index;
     });
   }
   @override
-  Widget build(BuildContext context) {
+   Widget build(BuildContext context) {
+super.build(context);
     return Scaffold(
-      body: _children[_currentIndex],
-      bottomNavigationBar: Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.only(
-                topRight: Radius.circular(30),
-                topLeft: Radius.circular(30)),
-            boxShadow: [
-              BoxShadow(color: Colors.black38, spreadRadius: 0, blurRadius: 10),
-            ],
-          ),
-          child: ClipRRect(
-            borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(30.0),
-              topRight: Radius.circular(30.0),
-            ),
-            child: BottomNavigationBar(
-              unselectedItemColor: Colors.grey.shade600,
-              selectedItemColor: Color(0xff1EB2A2),
-              onTap: onTabTapped,
-              currentIndex: _currentIndex,
-              // this will be set when a new tab is tapped
-              items: [
-                BottomNavigationBarItem(
-                  icon: new Icon(Icons.home),
-                  title: new Text('Home'),
-                ),
-                BottomNavigationBarItem(
-                  icon: new Icon(Icons.notifications),
-                  title: new Text('Notifications'),
-                ),
-                BottomNavigationBarItem(
-                    icon: Icon(Icons.person), title: Text('Profile')),
-                BottomNavigationBarItem(
-                    icon: Icon(Icons.paste_sharp), title: Text('Appointments')),
-                BottomNavigationBarItem(
-                    icon: Icon(Icons.logout), title: Text('Log Out'))
+        body:  children[_currentIndex],
+        // _children[_currentIndex],
+        bottomNavigationBar: Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.only(
+                  topRight: Radius.circular(30),
+                  topLeft: Radius.circular(30)),
+              boxShadow: [
+                BoxShadow(color: Colors.black38, spreadRadius: 0, blurRadius: 10),
               ],
             ),
-          )),
+            child: ClipRRect(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(30.0),
+                topRight: Radius.circular(30.0),
+              ),
+              child: BottomNavigationBar(
+                unselectedItemColor: Colors.grey.shade600,
+                selectedItemColor: Color(0xff1EB2A2),
+                type: BottomNavigationBarType.shifting,
+                onTap: onTabTapped,
+                currentIndex: _currentIndex,
+                // this will be set when a new tab is tapped
+                items: [
+                  BottomNavigationBarItem(
+                    icon: new Icon(Icons.home),
+                    title: new Text('Home'),
+                  ),
+                  BottomNavigationBarItem(
+                    icon: new Icon(Icons.notifications),
+                    title: new Text('Notifications'),
+                  ),
+                  BottomNavigationBarItem(
+                      icon: Icon(Icons.person), title: Text('Profile')),
+                  BottomNavigationBarItem(
+                      icon: Icon(Icons.paste_sharp), title: Text('Appointments')),
+                  BottomNavigationBarItem(
+                      icon: Icon(Icons.logout), title: Text('Log Out'))
+                ],
+              ),
+            )),
     );
   }
+
+  @override
+  // TODO: implement wantKeepAlive
+  bool get wantKeepAlive => true;
+  // Widget getBody(int currentIndex) {
+  //
+  //   switch(currentIndex){
+  //     case 0:
+  //       return children[0];
+  //     case 1:
+  //       return children[1];
+  //     case 2:
+  //       return children[2];
+  //     case 3:
+  //     return children[3];
+  //   }
+  // }
 }
+
+

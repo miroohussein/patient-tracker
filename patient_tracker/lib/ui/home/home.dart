@@ -1,8 +1,18 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/iconspatient_icons.dart';
 import 'package:patient_tracker/pojoLists/cardDecoration.dart';
+import 'package:patient_tracker/ui/bloodType/bloodType.dart';
+import 'package:patient_tracker/ui/editProfile/editProfile.dart';
+import 'package:patient_tracker/ui/hospital_page/hopital_page.dart';
 import 'package:patient_tracker/ui/icon/patient_tracker_icons.dart';
+import 'package:patient_tracker/ui/navigationBar/Bar.dart';
+import 'package:patient_tracker/ui/navigationBar/costumeNavigationBar.dart';
+import 'package:patient_tracker/ui/navigationBar/globalNavigationBar.dart';
+import 'package:patient_tracker/ui/profile/profile.dart';
+import 'package:patient_tracker/ui/sign_up/doctor_sign_up.dart';
+
 // import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 class HomePage extends StatefulWidget {
@@ -18,25 +28,32 @@ class _HomePageState extends State<HomePage> {
 
   final List<CardDecoration> categoryList = [
     //blue - child
-    CardDecoration(PatientTracker.group_163, "child", 0xff0D5ADF, 0xffe6f2ff),
+    CardDecoration(Iconspatient.group_163, "child", 0xff0D5ADF, 0xffe6f2ff),
     //red - Brain&Nerves
-    CardDecoration(Icons.category, "Brain&Nerves", 0xffEF1027, 0xfffde7e9),
+    CardDecoration(Iconspatient.brain_neuron_intelligence_mind, "Brain&Nerves",
+        0xffEF1027, 0xfffde7e9),
     //green - Bones
-    CardDecoration(Icons.ac_unit_sharp, "Bones", 0xff1EB2A2, 0xffe9fbf9),
+    CardDecoration(Iconspatient.path_355, "Bones", 0xff1EB2A2, 0xffe9fbf9),
     //red - Cardiac
-    CardDecoration(Icons.category, "Cardiac", 0xffEF1027, 0xfffde7e9),
+    CardDecoration(Iconspatient.path_346, "Cardiac", 0xffEF1027, 0xfffde7e9),
     //green - Gynaecology & Infertility
-    CardDecoration(Icons.ac_unit_sharp, "Gynaecology & Infertility", 0xff1EB2A2,
-        0xffe9fbf9),
+    CardDecoration(Iconspatient.baby_boy, "Gynaecology & Infertility",
+        0xff1EB2A2, 0xffe9fbf9),
     //blue - Dental
-    CardDecoration(Icons.category, "Dental", 0xff0D5ADF, 0xffe6f2ff),
+    CardDecoration(
+        Iconspatient.teeth_tooth_dental_dentist_healthcare_medical_medicine,
+        "Dental",
+        0xff0D5ADF,
+        0xffe6f2ff),
     //blue - Dermatology
-    CardDecoration(Icons.ac_unit_sharp, "Dermatology", 0xff0D5ADF, 0xffe6f2ff),
+    CardDecoration(
+        Iconspatient.xmlid_345_, "Dermatology", 0xff0D5ADF, 0xffe6f2ff),
     //red - Ear,Nose & Throat
-    CardDecoration(PatientTracker.brain_neuron_intelligence_mind, "Ear,Nose & Throat", 0xffEF1027, 0xfffde7e9),
+    CardDecoration(
+        Iconspatient.group_176, "Ear,Nose & Throat", 0xffEF1027, 0xfffde7e9),
     //green - Mental & Emotional
     CardDecoration(
-        Icons.ac_unit_sharp, "Mental & Emotional", 0xff1EB2A2, 0xffe9fbf9),
+        Iconspatient.anxiety, "Mental & Emotional", 0xff1EB2A2, 0xffe9fbf9),
   ];
 
   Widget build(BuildContext context) {
@@ -120,14 +137,12 @@ class _HomePageState extends State<HomePage> {
               SizedBox(
                 height: 30,
               ),
-
               Container(
                   alignment: Alignment.topLeft,
                   child: Text(
                     'Categories',
                     style: TextStyle(color: Colors.black, fontSize: 23),
                   )),
-
               Expanded(
                 child: GridView.count(
                     crossAxisCount: 3,
@@ -136,27 +151,45 @@ class _HomePageState extends State<HomePage> {
                     padding: EdgeInsets.all(16.0),
                     children: List.generate(categoryList.length, (index) {
                       return Card(
+                        margin: EdgeInsets.symmetric(vertical: 3.5),
                         color: Color(categoryList[index].cardColor),
                         elevation: 0.0,
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20.0)),
-                        child: Container(
-                            child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Icon(
-                              categoryList[index].icon,
-                              color: Color(categoryList[index].color),
-                            ),
-                            Text(
-                              "${categoryList[index].textData}",
-                              style: TextStyle(
-                                  color: Color(categoryList[index].color),
-                                  fontSize: 12.0),
-                            ),
-                          ],
-                        )),
+                        child: ListTile(
+                          title: Container(
+                              margin: EdgeInsets.symmetric(horizontal: 6),
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Icon(
+                                    categoryList[index].icon,
+                                    size: 37,
+                                    color: Color(
+                                      categoryList[index].color,
+                                    ),
+                                  ),
+                                  Center(
+                                    child: Text(
+                                      "${categoryList[index].textData}",
+                                      style: TextStyle(
+                                          color:
+                                              Color(categoryList[index].color),
+                                          fontSize: 12.0),
+                                      overflow: TextOverflow.visible,
+                                    ),
+                                  ),
+                                ],
+                              )),
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => HospitalPage()),
+                            );
+                          },
+                        ),
                       );
                     })),
               ),
@@ -174,6 +207,9 @@ class _HomePageState extends State<HomePage> {
                     borderRadius: BorderRadius.circular(35.0)),
                 onPressed: () {},
                 textColor: Colors.white70,
+              ),
+              SizedBox(
+                height: 20,
               ),
 
               // StaggeredGridView.count(
@@ -220,5 +256,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
-

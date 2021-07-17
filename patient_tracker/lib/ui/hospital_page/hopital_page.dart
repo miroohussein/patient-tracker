@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:patient_tracker/jsonClass/hospitsl_list.dart';
 
+import '../../main.dart';
+
 class HospitalPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -9,7 +11,7 @@ class HospitalPage extends StatefulWidget {
   }
 }
 
-class _HospitalPage extends State<HospitalPage> {
+class _HospitalPage extends State<HospitalPage> with AutomaticKeepAliveClientMixin {
   Color _mainColor = Color(0xff1EB2A2);
   final List<HospetalList> hospitalList = [
     HospetalList(
@@ -48,9 +50,21 @@ class _HospitalPage extends State<HospitalPage> {
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
+        leading: IconButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => PatientTracker()),
+              );
+            },
+            icon: Icon(
+              Icons.arrow_back_ios,
+              color: Colors.red.shade800,
+            )),
         actions: [
           IconButton(
               onPressed: () {},
@@ -162,4 +176,8 @@ class _HospitalPage extends State<HospitalPage> {
       ),
     );
   }
+
+  @override
+  // TODO: implement wantKeepAlive
+  bool get wantKeepAlive => true;
 }
