@@ -237,7 +237,7 @@ Stack new_container1() {
               height: 42,
               width: 116,
               decoration: BoxDecoration(borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20),bottomRight: Radius.circular(20),),   color:Colors.red,),
-              child: Center(child: Text("Book",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),)),),
+              child: Center(child: TextButton(onPressed: (){}, child: Text("book",style: TextStyle(color: Colors.white),)),),),
           ),
 
         ],
@@ -281,7 +281,7 @@ Stack new_container1() {
             height: 42,
             width: 116,
             decoration: BoxDecoration(borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20),bottomRight: Radius.circular(20),),   color:Colors.red,),
-            child: Center(child: TextButton(onPressed: (){}, child: Text("book")),),),
+            child: Center(child: TextButton(onPressed: (){}, child: Text("book",style: TextStyle(color: Colors.white),)),),),
         ),
 
       ],
@@ -325,9 +325,9 @@ Stack new_container1() {
             height: 42,
             width: 116,
             decoration: BoxDecoration(borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20),bottomRight: Radius.circular(20),),   color:Colors.red,),
-            child: Center(child: Text("Book",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),)),),
+            child: Center(child: TextButton(onPressed: (){}, child: Text("book",style: TextStyle(color: Colors.white),)),),),
         ),
-
+          
       ],
 
 
@@ -369,11 +369,11 @@ Stack new_container1() {
             height: 42,
             width: 116,
             decoration: BoxDecoration(borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20),bottomRight: Radius.circular(20),), color:Colors.grey,),
-                child: Center(child: Text("Complete",style: TextStyle(fontWeight:FontWeight.bold,color: Colors.white),)),
+                child: Center(child: TextButton(onPressed: (){}, child: Text("Complete",style: TextStyle(color: Colors.white),)),)),
 
           ),
 
-        ),
+
 
       ],
 
