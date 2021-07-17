@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\Documents\\GitHub\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ky\\values-ky.xml",
+            "outputFile": "D:\\Engenieering\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ky\\values-ky.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\.gradle\\caches\\transforms-2\\files-2.1\\80dc6a7f174481fe25dcedc41ed68001\\core-1.1.0\\res\\values-ky\\values-ky.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2805",
-                        "endColumns": "100",
-                        "endOffsets": "2901"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\.gradle\\caches\\transforms-2\\files-2.1\\c0b8118ff3dacfbf387fd6d956a49868\\jetified-play-services-basement-17.1.0\\res\\values-ky\\values.xml",
+                    "source": "C:\\Users\\Hossam\\.gradle\\caches\\transforms-2\\files-2.1\\c0b8118ff3dacfbf387fd6d956a49868\\jetified-play-services-basement-17.1.0\\res\\values-ky\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\.gradle\\caches\\transforms-2\\files-2.1\\9417d41dde92678ab8488ec0684ca850\\jetified-play-services-base-17.1.0\\res\\values-ky\\values.xml",
+                    "source": "C:\\Users\\Hossam\\.gradle\\caches\\transforms-2\\files-2.1\\9417d41dde92678ab8488ec0684ca850\\jetified-play-services-base-17.1.0\\res\\values-ky\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "105,213,394,525,634,838,967,1112,1471,1699,1808,1989,2121,2317,2514,2608,2698",
                         "endColumns": "107,180,130,108,203,128,144,137,227,108,180,131,195,196,93,89,106",
                         "endOffsets": "208,389,520,629,833,962,1107,1245,1694,1803,1984,2116,2312,2509,2603,2693,2800"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hossam\\.gradle\\caches\\transforms-2\\files-2.1\\80dc6a7f174481fe25dcedc41ed68001\\core-1.1.0\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2805",
+                        "endColumns": "100",
+                        "endOffsets": "2901"
                     }
                 }
             ]

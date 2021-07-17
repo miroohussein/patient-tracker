@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:patient_tracker/jsonClass/hospitsl_list.dart';
-
-import '../../main.dart';
+import 'package:patient_tracker/ui/icon/patient_tracker_icons.dart';
+import 'package:patient_tracker/main.dart';
 
 class HospitalPage extends StatefulWidget {
   @override
@@ -11,7 +11,8 @@ class HospitalPage extends StatefulWidget {
   }
 }
 
-class _HospitalPage extends State<HospitalPage> with AutomaticKeepAliveClientMixin {
+class _HospitalPage extends State<HospitalPage>
+    with AutomaticKeepAliveClientMixin {
   Color _mainColor = Color(0xff1EB2A2);
   final List<HospetalList> hospitalList = [
     HospetalList(

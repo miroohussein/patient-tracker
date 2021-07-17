@@ -11,23 +11,32 @@
 ///      fonts:
 ///       - asset: fonts/PatientTrackericon.ttf
 ///
-/// 
+///
 ///
 import 'package:flutter/widgets.dart';
 
-class PatientTracker {
-  PatientTracker._();
+class PatientIcons {
+  PatientIcons._();
 
   static const _kFontFam = 'PatientTracker';
   static const String? _kFontPkg = null;
 
-  static const IconData group_163 = IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData group_176 = IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData path_346 = IconData(0xe802, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData path_355 = IconData(0xe803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData teeth_tooth_dental_dentist_healthcare_medical_medicine = IconData(0xe804, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData xmlid_345_ = IconData(0xe805, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData anxiety = IconData(0xe806, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData baby_boy = IconData(0xe807, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData brain_neuron_intelligence_mind = IconData(0xe808, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData group_163 =
+      IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData group_176 =
+      IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData path_346 =
+      IconData(0xe802, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData path_355 =
+      IconData(0xe803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData teeth_tooth_dental_dentist_healthcare_medical_medicine =
+      IconData(0xe804, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData xmlid_345_ =
+      IconData(0xe805, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData anxiety =
+      IconData(0xe806, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData baby_boy =
+      IconData(0xe807, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData brain_neuron_intelligence_mind =
+      IconData(0xe808, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
