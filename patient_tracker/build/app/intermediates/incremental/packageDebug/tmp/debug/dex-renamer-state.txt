@@ -1,4 +1,7 @@
-#Thu Jul 15 00:02:49 PDT 2021
-base.0=C\:\\Users\\Administrator.CRIZMA-LAPTOP\\Documents\\GitHub\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Fri Jul 16 22:20:56 PDT 2021
+base.0=C\:\\Users\\Administrator.CRIZMA-LAPTOP\\Documents\\GitHub\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\Users\\Administrator.CRIZMA-LAPTOP\\Documents\\GitHub\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

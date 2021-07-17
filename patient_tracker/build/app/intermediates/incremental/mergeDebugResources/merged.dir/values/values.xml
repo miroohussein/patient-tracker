@@ -75,6 +75,13 @@
     <item name="text2" type="id"/>
     <item name="title" type="id"/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="default_web_client_id" translatable="false">595386815265-6s4nb2qohpglf10juhi3jjglpb8k5vl0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">595386815265</string>
+    <string name="google_api_key" translatable="false">AIzaSyBewzVctSurRaSd1T9bBgK8kzKVf_72zJU</string>
+    <string name="google_app_id" translatable="false">1:595386815265:android:de2a0cb3c2e9843edb2460</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBewzVctSurRaSd1T9bBgK8kzKVf_72zJU</string>
+    <string name="google_storage_bucket" translatable="false">patient-tracker-b9408.appspot.com</string>
+    <string name="project_id" translatable="false">patient-tracker-b9408</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
         <!-- Show a splash screen on the activity. Automatically removed when

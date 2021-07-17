@@ -125,7 +125,14 @@ int layout notification_template_icon_group 0x7f070004
 int layout notification_template_part_chronometer 0x7f070005
 int layout notification_template_part_time 0x7f070006
 int mipmap ic_launcher 0x7f080000
-int string status_bar_notification_info_overflow 0x7f090000
+int string default_web_client_id 0x7f090000
+int string gcm_defaultSenderId 0x7f090001
+int string google_api_key 0x7f090002
+int string google_app_id 0x7f090003
+int string google_crash_reporting_api_key 0x7f090004
+int string google_storage_bucket 0x7f090005
+int string project_id 0x7f090006
+int string status_bar_notification_info_overflow 0x7f090007
 int style LaunchTheme 0x7f0a0000
 int style NormalTheme 0x7f0a0001
 int style TextAppearance_Compat_Notification 0x7f0a0002

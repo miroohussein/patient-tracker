@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/ui/Sign_inPAGE/sign_in.dart';
 
 class DRwelcomepage extends StatelessWidget {
   Color mainColor = Color.fromRGBO(19, 138, 222,1);
@@ -19,27 +20,27 @@ class DRwelcomepage extends StatelessWidget {
             )),),
         body:Padding(
         padding: const EdgeInsets.all(10.0),
-    child: Container(
-    child:SingleChildScrollView(
-    child: Column(
-    children: <Widget> [
-    Image.asset("assets/images/logo.png",width: 200,height: 200),
-    Padding(
-    padding: const EdgeInsets.all(8.0),
-    child: Center(
-    child: Text(" This is patient tracker app, WELCOME!",
-    style: TextStyle(
-    color: mainColor,
-    fontSize: 20,
-    fontWeight: FontWeight.bold,
-    ),
-    textAlign: TextAlign.center,),),
-    ),
-    Padding(
-      padding: const EdgeInsets.fromLTRB(5, 0, 5, 100),
-      child: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Container(
+              child: Container(
+              child:SingleChildScrollView(
+              child: Column(
+              children: <Widget> [
+              Image.asset("assets/images/logo.png",width: 200,height: 200),
+              Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Center(
+              child: Text(" This is patient tracker app, WELCOME!",
+              style: TextStyle(
+              color: mainColor,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              ),
+              textAlign: TextAlign.center,),),
+              ),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(5, 0, 5, 100),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
                margin: const EdgeInsets.fromLTRB(5, 5, 5, 1),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -67,19 +68,27 @@ class DRwelcomepage extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Row(
-                mainAxisAlignment:MainAxisAlignment.spaceAround ,
-                children: [
-                  Text("Already have an account?",style:TextStyle(color: Colors.teal),),
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(15, 5, 5, 8),
-                    child: TextButton(onPressed: (){}, child: Text("Sign in")),
-                  )
-                ],
+
+               Center(
+                 child: Row(
+
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(50, 5, 0, 5),
+                      child: Text("Already have an account?",style:TextStyle(color: Colors.teal),),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(0, 5, 50, 8),
+                      child: TextButton(onPressed: (){
+                        Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => sign_in()),
+                        );}, child: Text("Sign in")),
+                    )
+                  ],
               ),
-            )
+               ),
+
                                               ],
                                                      ),
         ),

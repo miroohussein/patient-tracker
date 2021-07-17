@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/ui/Sign_inPAGE/sign_in.dart';
 
 class PATIENTwelcomepage extends StatelessWidget {
   Color mainColor = Color.fromRGBO(19, 138, 222,1);
@@ -57,9 +58,24 @@ class PATIENTwelcomepage extends StatelessWidget {
             ),
 
           ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Text("Already have an account? Sign in",style:TextStyle(color: Colors.lightBlue),),
+          Center(
+            child: Row(
+
+              children: [
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(50, 5, 0, 5),
+                  child: Text("Already have an account?",style:TextStyle(color: Colors.teal),),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(0, 5, 50, 8),
+                  child: TextButton(onPressed: (){
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => sign_in()),
+                    );}, child: Text("Sign in")),
+                )
+              ],
+            ),
           ),
         ],
       ),

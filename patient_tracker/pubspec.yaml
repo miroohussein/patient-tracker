@@ -22,6 +22,9 @@ environment:
 
 
 dependencies:
+  firebase_auth: ^3.0.1
+  firebase_core: ^1.4.0
+  cloud_firestore: ^2.4.0
   flutter_rating_bar: ^4.0.0
   grouped_list: ^4.0.0
   flutter:
@@ -54,7 +57,10 @@ flutter:
     - assets/images/patient.png
     - assets/images/admin3.png
     - assets/images/doctorr.png
+    - assets/images/service1.png
     - assets/images/hospital.png
+    - assets/images/service2.png
+    - assets/images/service3.png
 
 
   #   - images/a_dot_ham.jpeg

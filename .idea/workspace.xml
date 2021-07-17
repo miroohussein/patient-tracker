@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94593170-7080-4969-85e1-5a5cea783dcd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/hospital.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/ClinicOrHospital/ClinicOnHospital.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/MedicalHistory/MedicalHistory.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/New services/new_services.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/Records/records.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/pojooo/pj_records.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/records2/records2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/android/app/src/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/service1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/service2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patient_tracker/assets/images/service3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/.filecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/app.dill" afterDir="false" />
@@ -35,36 +33,216 @@
       <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/flutter_assets.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/outputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/flutter_build/e7074664099fd27e9ac6c7155ac64bf2/outputs.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.dart_tool/version" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/android/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/AssetManifest.json.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/NOTICES.jar" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/NOTICES.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/fonts/MaterialIcons-Regular.otf.jar" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/fonts/MaterialIcons-Regular.otf.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/isolate_snapshot_data.jar" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/isolate_snapshot_data.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/vm_snapshot_data.jar" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/vm_snapshot_data.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/.last_build_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/NOTICES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/fonts/MaterialIcons-Regular.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/isolate_snapshot_data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_assets/vm_snapshot_data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/2YP9XSLAwUzFDBWygiZN0+8YJwE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/9Hx8uxZnDGTh7XOu5H3X67+y0yk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/9icTAKUTEwGXqBxihVHeeWzmAEU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/FJjsFy+V3rMW0NBv8uttg5ueWWM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/HisH46jnSbXte5lR7up7tr55Fw0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/NARvZ5GthuOfbfr2ZkqjGHv75+c=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q2U2B0yZFgsLLU2_A7yZgGK2uio=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/QZiMfiD_TttH8AwzuTolAl_x7z4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/R8tqStWqfPMl7iZIaomUUlk7DkQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/eOjQLWS9FNT6zcZciVt9oqjnDE8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/fp+BoFdFjf_B5DeqgEqChfnruMk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/mr1eENoRERaA+Vx28ldGtg1mYwQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/p58MVT1inN+9NwOgrVtmTy1mUJk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/sEZcxdO_8SNT7UE4zMiRQkH2tKw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/sHYsio43+GXTKHZiuxZDew0dLvg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/tGEmrYB0T5f4zIg_0iIMEIQ6VzA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/x_vEYrVh29MXNG5GNaPbU5lYB3A=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/2YP9XSLAwUzFDBWygiZN0+8YJwE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/9Hx8uxZnDGTh7XOu5H3X67+y0yk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/9icTAKUTEwGXqBxihVHeeWzmAEU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/FJjsFy+V3rMW0NBv8uttg5ueWWM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/HisH46jnSbXte5lR7up7tr55Fw0=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/NARvZ5GthuOfbfr2ZkqjGHv75+c=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q2U2B0yZFgsLLU2_A7yZgGK2uio=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/QZiMfiD_TttH8AwzuTolAl_x7z4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/R8tqStWqfPMl7iZIaomUUlk7DkQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/eOjQLWS9FNT6zcZciVt9oqjnDE8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fp+BoFdFjf_B5DeqgEqChfnruMk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mr1eENoRERaA+Vx28ldGtg1mYwQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/p58MVT1inN+9NwOgrVtmTy1mUJk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/sEZcxdO_8SNT7UE4zMiRQkH2tKw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/sHYsio43+GXTKHZiuxZDew0dLvg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/tGEmrYB0T5f4zIg_0iIMEIQ6VzA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/x_vEYrVh29MXNG5GNaPbU5lYB3A=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/NOTICES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/fonts/MaterialIcons-Regular.otf" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/fonts/MaterialIcons-Regular.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/isolate_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/isolate_snapshot_data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/vm_snapshot_data" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_assets/debug/out/flutter_assets/vm_snapshot_data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_native_libs/debug/out/lib/x86/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_native_libs/debug/out/lib/x86/libflutter.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_native_libs/debug/out/lib/x86_64/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_native_libs/debug/out/lib/x86_64/libflutter.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-as.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-as.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rAU.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rAU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rXC.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rXC.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-or.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-or.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/project_dex_archive/debug/out/com/example/patient_tracker/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/project_dex_archive/debug/out/com/example/patient_tracker/BuildConfig.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/project_dex_archive/debug/out/com/example/patient_tracker/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/project_dex_archive/debug/out/com/example/patient_tracker/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/project_dex_archive/debug/out/f6549c9bdace265e421db4cf30e2095b58fd65d5ea3b431ee4e25caddb925ffb_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/project_dex_archive/debug/out/f6549c9bdace265e421db4cf30e2095b58fd65d5ea3b431ee4e25caddb925ffb_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/project_dex_archive/debug/out/io/flutter/plugins/GeneratedPluginRegistrant.dex" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/project_dex_archive/debug/out/io/flutter/plugins/GeneratedPluginRegistrant.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/res/merged/debug/drawable_launch_background.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/stripped_native_libs/debug/out/lib/x86/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/stripped_native_libs/debug/out/lib/x86/libflutter.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/stripped_native_libs/debug/out/lib/x86_64/libflutter.so" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/stripped_native_libs/debug/out/lib/x86_64/libflutter.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/build/app/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/app/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/ios/Flutter/Generated.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/lib/ui/dr_page/dr_page.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/ChooseDRorPatient/ChooseDRorPatient.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/ChooseDRorPatient/ChooseDRorPatient.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/DRwelcomepage.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/PATIENTwelcomepage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/DRandPATIENTwelcomepages/PATIENTwelcomepage.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/Doctors page/Doctors page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/Doctors page/Doctors page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/Notifications/Notifications.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/Notifications/Notifications.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/MedicalHistory/MedicalHistory.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/MedicalHistory/MedicalHistory.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/New services/new_services.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/New services/new_services.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/Sign_inPAGE/sign_in.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/Sign_inPAGE/sign_in.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/appointments/Appointments.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/appointments/Appointments.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_tracker/lib/ui/dr_page/dr_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/lib/ui/dr_page/dr_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patient_tracker/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/patient_tracker/pubspec.yaml" afterDir="false" />
     </list>
@@ -73,6 +251,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -95,17 +274,24 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/patient_tracker/assets/images" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/patient_tracker/android/app/src" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\lib\lib" />
+      <recent name="C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app" />
+      <recent name="C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\lib\ui\pj" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app\src" />
+      <recent name="C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\android\app" />
       <recent name="C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\assets\images" />
       <recent name="C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\assests\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator.CRIZMA-LAPTOP\Documents\GitHub\patient-tracker\patient_tracker\lib\ui\pj" />
     </key>
   </component>
   <component name="RunManager">
@@ -145,10 +331,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="5" key="#Plugins" timestamp="1622126846632">
+    <state x="275" y="5" key="#Plugins" timestamp="1626474915845">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="5" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1622126846632" />
+    <state x="275" y="5" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1626474915845" />
     <state x="434" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626322323858">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -157,41 +343,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1626254612006" />
-    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1626332697214">
+    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1626499176357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1626332697214" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1622126881552">
+    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1626499176357" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1626483563392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1622126881552" />
-    <state width="1323" height="33" key="GridCell.Tab.0.bottom" timestamp="1626339234326">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1626483563392" />
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1626509934140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="33" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626339234326" />
-    <state width="1323" height="33" key="GridCell.Tab.0.center" timestamp="1626339234326">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1626509934140" />
+    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1626509934140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="33" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626339234326" />
-    <state width="1323" height="33" key="GridCell.Tab.0.left" timestamp="1626339234325">
+    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1626509934140" />
+    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1626509934139">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="33" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626339234325" />
-    <state width="1323" height="33" key="GridCell.Tab.0.right" timestamp="1626339234326">
+    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1626509934139" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1626509934140">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="33" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626339234326" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1626244911386">
+    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1626509934140" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1626486191353">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1626244911386" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1626486191353" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1626291292422">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1626291292422" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1626254590234">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1626485066447">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1626254590234" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1626485066447" />
   </component>
 </project>

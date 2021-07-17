@@ -1,3 +1,5 @@
+
+
 import 'package:flutter/material.dart';
 import 'package:patient_tracker/ui/ChooseDRorPatient/ChooseDRorPatient.dart';
 import 'package:patient_tracker/ui/ClinicOrHospital/ClinicOnHospital.dart';
@@ -13,10 +15,13 @@ import 'package:patient_tracker/ui/appointments/Appointments.dart';
 import 'package:patient_tracker/ui/dr_page/dr_page.dart';
 import 'package:patient_tracker/ui/home_page/home_page.dart';
 import 'package:patient_tracker/ui/records2/records2.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 void main() {
   runApp(MaterialApp(debugShowCheckedModeBanner: false,
-    home: MedicalHistory()));
+    home: Recordss()));
 }
 
 class MyApp extends StatelessWidget {

@@ -1,6 +1,7 @@
 
  import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/ui/ChooseDRorPatient/ChooseDRorPatient.dart';
 
 class sign_in  extends StatefulWidget {
   @override
@@ -21,7 +22,8 @@ class sign_inState extends State<sign_in> {
          leading: IconButton(
 
              onPressed: ()
-             { },
+             {Navigator.of(context)
+                 .pop(DRorPATIENT()); },
              icon: Icon(
                Icons.arrow_back_ios,
                color: Colors.white,

@@ -16,10 +16,6 @@
         "source": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\Documents\\GitHub\\patient-tracker\\patient_tracker\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\Documents\\GitHub\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\res\\merged\\debug\\drawable_launch_background.xml.flat",
-        "source": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\Documents\\GitHub\\patient-tracker\\patient_tracker\\android\\app\\src\\main\\res\\drawable\\launch_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\Documents\\GitHub\\patient-tracker\\patient_tracker\\build\\app\\intermediates\\res\\merged\\debug\\drawable-v21_launch_background.xml.flat",
         "source": "C:\\Users\\Administrator.CRIZMA-LAPTOP\\Documents\\GitHub\\patient-tracker\\patient_tracker\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml"
     },
