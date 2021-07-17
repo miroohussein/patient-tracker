@@ -1,5 +1,4 @@
 
-
 import 'package:flutter/material.dart';
 import 'package:patient_tracker/ui/ChooseDRorPatient/ChooseDRorPatient.dart';
 import 'package:patient_tracker/ui/ClinicOrHospital/ClinicOnHospital.dart';
@@ -21,7 +20,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 void main() {
   runApp(MaterialApp(debugShowCheckedModeBanner: false,
-    home: Recordss()));
+    home: dr_page()));
 }
 
 class MyApp extends StatelessWidget {
