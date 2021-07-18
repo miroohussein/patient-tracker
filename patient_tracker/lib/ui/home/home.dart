@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
     if (user != null) {
       name = await FirebaseFirestore.instance
           .collection('Users')
-          .doc(user.email)
+          .doc(user.email.toString())
           .get()
           .then((value) => value.data()!['Name']);
 

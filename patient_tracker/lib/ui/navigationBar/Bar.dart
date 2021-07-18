@@ -1,5 +1,6 @@
 import 'dart:collection';
 import 'package:flutter/material.dart';
+import 'package:patient_tracker/ui/Notifications/Notifications.dart';
 import 'package:patient_tracker/ui/bloodType/bloodType.dart';
 import 'package:patient_tracker/ui/editProfile/editProfile.dart';
 import 'package:patient_tracker/ui/home/home.dart';
@@ -17,10 +18,11 @@ class NavigationBar extends StatefulWidget {
   _NavigationBarState createState() => _NavigationBarState();
 }
 
-class _NavigationBarState extends State<NavigationBar> with AutomaticKeepAliveClientMixin {
-  List<Widget> children=<Widget>[
+class _NavigationBarState extends State<NavigationBar>
+    with AutomaticKeepAliveClientMixin {
+  List<Widget> children = <Widget>[
     HomePage(),
-    DoctorSignUp(),
+    notifications(),
     Profile(),
     //PatientSignUp(),
     BloodType(),
@@ -29,25 +31,25 @@ class _NavigationBarState extends State<NavigationBar> with AutomaticKeepAliveCl
     EditProfile(),
   ];
 
-  ListQueue<int> _navigationQueue =ListQueue();
+  ListQueue<int> _navigationQueue = ListQueue();
   int _currentIndex = 0;
   PageController _pageController = PageController();
-  void _onItemTapped( int index){
+  void _onItemTapped(int index) {
     _pageController.jumpToPage(index);
   }
+
   //Add the pages in Navigation Bar
   void onTabTapped(int index) {
-
     setState(() {
       _navigationQueue.addLast(index);
       _currentIndex = index;
     });
   }
+
   @override
   Widget build(BuildContext context) {
     super.build(context);
     return WillPopScope(
-
       onWillPop: () async {
         if (_navigationQueue.isEmpty) return true;
         setState(() {
@@ -68,10 +70,10 @@ class _NavigationBarState extends State<NavigationBar> with AutomaticKeepAliveCl
         bottomNavigationBar: Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.only(
-                  topRight: Radius.circular(30),
-                  topLeft: Radius.circular(30)),
+                  topRight: Radius.circular(30), topLeft: Radius.circular(30)),
               boxShadow: [
-                BoxShadow(color: Colors.black38, spreadRadius: 0, blurRadius: 10),
+                BoxShadow(
+                    color: Colors.black38, spreadRadius: 0, blurRadius: 10),
               ],
             ),
             child: ClipRRect(
@@ -98,7 +100,8 @@ class _NavigationBarState extends State<NavigationBar> with AutomaticKeepAliveCl
                   BottomNavigationBarItem(
                       icon: Icon(Icons.person), title: Text('Profile')),
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.paste_sharp), title: Text('Appointments')),
+                      icon: Icon(Icons.paste_sharp),
+                      title: Text('Appointments')),
                   BottomNavigationBarItem(
                       icon: Icon(Icons.logout), title: Text('Log Out'))
                 ],
@@ -125,5 +128,3 @@ class _NavigationBarState extends State<NavigationBar> with AutomaticKeepAliveCl
 //   }
 // }
 }
-
-
